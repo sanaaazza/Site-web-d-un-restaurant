@@ -1,0 +1,213 @@
+
+body{background-color:#242222;}
+#img2{
+background-image: url(gas.png);
+height:100vh; 
+background-position: center;
+background-size: cover;
+margin-top: 100px;
+}
+nav  { display: flex; margin-left: 990px; margin-top: -710px;position: absolute;}
+#t1{margin-left: -300px; color: #ffe4b7; text-decoration:none;}
+#t2{margin-left: 10px; color: rgb(250, 73, 8); text-decoration:none; list-style-type: none;
+  cursor: pointer; margin-top: -4px; font-size: 20px; }
+#t3{margin-left: 58px; color :rgb(250, 73, 8); text-decoration:none; position: relative;}
+#t4{margin-left: 58px; color:rgb(250, 73, 8);text-decoration:none; position: relative;}
+#t1:hover{color:rgb(250, 73, 8); }
+#t2:hover{color: #ffe4b7  ;}
+#t3:hover{color:#ffe4b7;  }
+#t4:hover{color:#ffe4b7;  }
+#d1{ margin-right:680px; margin-top: 280px; font-size:19px ; 
+     text-align: center ; color: #ffe4b7; position: absolute;}
+#logo1{margin-top: -750px;  position: absolute; margin-left: 40px; width: 5%;}
+#tit1{margin-top: -740px; position: absolute ; margin-left: 120px; font-size:33px;
+color:  rgb(250, 73, 8); font-family:Georgia, 'Times New Roman', Times, serif
+;}
+#aside1{ padding-left: 720px; margin-top:150px; position: absolute; }
+#aside2{width: 15%;  margin-left: 670px; margin-top: -120px;}
+h2{font-family:'Cambria',' Cochin', Georgia, Times, 'Times New Roma8n', serif; color: #ffe4b7;}
+#aside3 { margin-top: 820px;text-align: center; font-size: 19px;
+    position:absolute; ;margin-left: 720px; color: #ffe4b7; margin-right: 70px;}
+#image3{margin-top: 750px;  width: 47%; position: absolute;  }
+#photo1{width:300px; height: 300px; }
+#photo2{width:300px; height: 300px;}
+#photo3{width:300px; height:300px;}
+#photo4{width:300px; height: 300px;}
+.column { margin-top: 5px;
+    float:left;
+    padding: 15px;
+  }
+  /* Style the images inside the grid */
+  .column img {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  .column img:hover {
+    opacity: 1;
+  }
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /* The expanding image container (positioning is needed to position the close button and the text) */
+  .container {
+    position: relative;
+    display: none;
+  }
+  /* Expanding image text */
+  #imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+  }
+  /* Closable button inside the image */
+  .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+  }
+  #service{padding-top:1350px;   color:  #ffe4b7; font-size: 20px;
+font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif, sans-serif; text-align: center;}
+footer{
+  display: flex; margin-top: 300px; padding-top: 30px;color:  rgb(250, 73, 8); font-size: 100.5%;
+}
+#navi { 
+  margin-left: 10px;   list-style-type: none; text-decoration: none; font-size:20px;
+  
+}
+#navi li a:hover{ font-family:'Cambria',' Cochin', Georgia, Times, 'Times New Roma8n', serif;
+  color: #df9c20; 
+   }
+   #navi li a{color:  rgb(250, 73, 8); list-style-type: none; text-decoration: none;}
+#Horaire{
+  margin-left: 100px;   list-style-type: none; font-size:20px;
+}
+#Haraire li{font-family:'Cambria', 'Cochin', Georgia, Times, 'Times New Roma8n', serif;}
+#info{
+  margin-left: 50px;  list-style-type: none; font-size:20px;
+}
+ h3{font-family:'Cambria', 'Cochin', Georgia, Times, 'Times New Roma8n', serif;}
+#info li{text-align: left; font-family:'Cambria', 'Cochin', Georgia, Times, 'Times New Roma8n', serif;}
+.sous-menu { 
+  display: none;
+  list-style-type: none;
+  padding-right: -40px;
+  margin-left: -100px;
+ margin-top: 30px;
+}
+.backcolor{margin-left: -6px;
+  background-color: #ffe4b7;
+  height:280px; width: 101.02%;
+}
+.sous-menu li {background-color: #242222;
+  padding: 8px;
+}
+.sous-menu li a:hover{ 
+color:#ffe4b7;
+}
+.sous-menu li a{list-style-type: none;  color:rgb(250, 73, 8); text-decoration: none;}
+
+#paragraphe{ display: flex; }
+#p1{ border: 2px solid rgb(250, 73, 8);padding:15px; margin-right: 1030px; margin-left: 20px; border-radius:10px;
+  padding-left: 20px; color: #ffe4b7; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+#p2{border: 2px solid rgb(250, 73, 8); padding: 15px; margin-right: 690px; margin-left: 350px; border-radius:10px;
+   padding-left: 20px; margin-top: -143px; color: #ffe4b7; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+#p3{border: 2px solid rgb(250, 73, 8); padding: 15px; margin-right: 360px; margin-left:690px; border-radius:10px;
+  padding-left:20px;margin-top: -143px;color: #ffe4b7;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+#p4{border: 2px solid rgb(250, 73, 8); padding: 15px; margin-right: 35px; margin-left:1025px; border-radius:10px;
+  padding-left: 20px;margin-top: -145px; color: #ffe4b7;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+#p1:hover{border-color:#e25a42 ;}
+#p2:hover{border-color:#e25a42 ;}
+#p3:hover{border-color:#e25a42 ;}
+#p4:hover{border-color:#e25a42 ;}
+
+
+
+
+section{
+    background:#000 ;
+}
+
+
+h1{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 95%;
+    text-align: center;
+    letter-spacing: 1rem;
+    text-transform: uppercase;
+    color: #f5f5f5;
+    font-size: 4em;
+    font-family: sans-serif;
+}
+
+h1 span{
+    display: inline-block;
+    animation: animate 1s  ease-in-out;
+
+}
+
+@keyframes animate{
+    0%{
+        opacity: 0%;
+        transform: rotateY(90deg);
+        filter: blur(10px);
+    }
+    100%{
+        opacity: 1;
+        transform: rotateY(0deg);
+        filter: blur(0px);
+}
+}
+h1 span:nth-child(1)
+{
+    animation-delay: 0.6s;
+}
+h1 span:nth-child(2)
+{
+    animation-delay: 1s;
+}
+h1 span:nth-child(3)
+{
+    animation-delay: 1.7s;
+}
+h1 span:nth-child(4)
+{
+    animation-delay: 2.3s;
+}
+h1 span:nth-child(5)
+{
+    animation-delay: 2.7s;
+}
+h1 span:nth-child(6)
+{
+    animation-delay: 3.2s;
+}
+h1 span:nth-child(7)
+{
+    animation-delay: 3.7s;
+}
+h1 span:nth-child(8)
+{
+    animation-delay: 4s;
+}
+button{ position:absolute; margin-top:-720px; margin-left: 1220px;
+background-color: transparent; border: none; }
+#auth{width: 30%; background-color:#ffe4b7; border-radius: 20px;}
+button :hover{ border-radius: 20px; scale: 1.2;}
+.sociales{display: flex;    } 
+#face{width: 40px; margin-top:630px; margin-right: -80px; position: absolute; }
+#linkedin{width: 40px;margin-top: 630px;margin-left: -100px; position: absolute; border-radius: 3px;}
+#insta{width: 40px; margin-top:630px; margin-left: -50px;position: absolute;}
+#face:hover{background-color: blue;border-radius: 9px;}
+#insta:hover{border-radius: 9px;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);  }
+#linkedin:hover{background-color: #1d4ed8;;border-radius: 9px;}
