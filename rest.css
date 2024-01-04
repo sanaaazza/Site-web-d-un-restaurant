@@ -199,6 +199,10 @@ h1 span:nth-child(8)
 {
     animation-delay: 4s;
 }
+h1 span:nth-child(9)
+{
+    animation-delay: 4.2s;
+}
 button{ position:absolute; margin-top:-720px; margin-left: 1220px;
 background-color: transparent; border: none; }
 #auth{width: 30%; background-color:#ffe4b7; border-radius: 20px;}
@@ -211,3 +215,15 @@ button :hover{ border-radius: 20px; scale: 1.2;}
 #insta:hover{border-radius: 9px;
   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);  }
 #linkedin:hover{background-color: #1d4ed8;;border-radius: 9px;}
+#scroll_to_top {
+  position: relative;
+  margin-top: -20px;
+  margin-left: 1310px;
+  width: 25px;
+  height: 25px;
+  bottom: 50px;
+  right: 30px;
+}
+#scroll_to_top img {
+  width: 50px;
+}

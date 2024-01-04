@@ -118,7 +118,7 @@
          <footer>
           
           <ul id="navi"><h3>NAVIGATION</h3>
-            <li><a href="menu.php">Nos Menus</a></li>
+            <li><a href="petitdéjeunner.php">Nos Menus</a></li>
             <li><a href="réservation.php">Réservation</a></li>
             <li><a href="contact.php">Contactez nous</a></li>
 
@@ -139,6 +139,9 @@
   <button ><a href=""><img src="instgrame.png" alt="" id="insta" target="_blank"></button></a>
   <button ><a href="https://www.linkedin.com/company/100457684/admin/feed/posts/?feedType=following" target="_blank"><img src="linko.png" alt="" id="linkedin"></button></a>
 </div> 
+<div id="scroll_to_top">
+    <a href="#top"><img src="go.png" alt="Retourner en haut" /></a>
+</div>
          </footer>
 
 </body>
